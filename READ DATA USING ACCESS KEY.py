@@ -11,9 +11,3 @@ even = []
 if i % 2 == 0:
   even.append(i)
 print(even)
-
-# COMMAND ----------
-
-# MAGIC %sql
-# MAGIC select * from customer 
-# MAGIC where city = "mumbai"
